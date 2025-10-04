@@ -1,5 +1,5 @@
 function Home() {
-    return URL("index.html")
+    return <h1>retorno</h1>
 }
 
 export default Home;
