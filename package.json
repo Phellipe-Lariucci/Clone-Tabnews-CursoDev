@@ -4,7 +4,9 @@
   "description": "Um site para gerenciar lista de presença e outros aspectos de campanhas de RPG",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,11 @@
   },
   "homepage": "https://github.com/Phellipe-Lariucci/RPG-Meeting#readme",
   "dependencies": {
-    "next": "^13.1.6",
+    "next": "^15.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }
