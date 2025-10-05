@@ -1,10 +1,4 @@
 function Home() {
-  return (
-    <iframe
-      src="/index.html"
-      style={{ width: "100%", height: "100vh", border: "none" }}
-    />
-  );
+  return <h1>Iniciando o projeto</h1>;
 }
-
 export default Home;
