@@ -1,5 +1,8 @@
 const nextJest = require("next/jest");
 
-nextJest();
+const createJestConfig = nextJest();
+const jestConfig = createJestConfig({
+  moduleDirectories: ["node_modules", "<rootDir>"],
+});
 
-MediaSourceHandle.export = jestConfig;
+module.export = jestConfig;
